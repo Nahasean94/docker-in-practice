@@ -1,2 +1,2 @@
 # docker-in-practice
-Learning CI with docker
+Learning CI/CD with docker
