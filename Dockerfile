@@ -11,10 +11,7 @@ RUN apt-get install -y strace
 RUN apt-get install -y tcpdump
 RUN apt-get install -y lsof
 RUN apt-get install -y inotify-tools
-Adds a line to the
 RUN apt-get install -y sysstat
-
 RUN apt-get install -y build-essential
-source bash_extra
 RUN echo "source /root/bash_extra" >> /root/.bashrc
 ADD bash_extra /root
